@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+        header{
+            background-color: aliceblue;
+        }
+    h5{
+        text-align: center;
+    }
+footer{ background-color: #606C38;}
+p{
+    text-align: center;
+    color: chocolate;
+}
+    
+a{
+    text-decoration: none;
+}
+#orlap{
+    color: #020303;
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+background-color: #FFEDD8;
+}
+div{
+    width:800px;
+    height:515px;
+    background-color:#606C38; 
+    margin:50px auto;
+    margin:50px auto;
+    text-align: center;
+}
+ol{ display: inline-block;}
+#h2doroteiro{
+     border: 80px solid black;
+    border-radius:80px;
+}
+

@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+header{ 
+    background-color:#204635;
+    
+}
+h5{
+    text-align: center;
+}
+footer{background-color:#204635;}
+p{ 
+  text-align: center;
+    color: #BFBFBF;
+}
+a{
+    text-decoration: none;
+}
+#pparque{
+    color: #8F8073}
+    *{
+        margin: 0;
+    padding: 0;
+    background-color: ;
+    
+}
+div{
+    width:400px;
+    height: 515px;
+    background-color:#204635; 
+    margin:50px auto;
+    text-align: center;
+}
+ul{display: inline-block;}
+#h2sementeiraatrativo{
+    border:5px solid black;
+    border-radius:50px;
+}
