@@ -19,8 +19,7 @@ let crianças =30
 let entregadepipocas=crechê/crianças
 console.log("A divisão é :"+entregadepipocas+"R$")
 console.log("-----------------------")
-let wesllainy= 2000
-let mesestrab= 4
+let wesllainy= 2000;
+let mesestrab= 4;
 let totalanual= wesllainy/12*mesestrab
-console.log("wesllainy+" seu +décimo é : "+décimo"+ "Parabéns!")
- 
+console.log("wesllainy o seu +décimo+ é" +"R$")
