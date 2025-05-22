@@ -1,4 +1,4 @@
-let bruna = 6.5;
+/*let bruna = 6.5;
 let carla = 8;
 let soma = bruna + carla
 console.log(14.5)
@@ -18,8 +18,14 @@ let crechê = 50
 let crianças =30
 let entregadepipocas=crechê/crianças
 console.log("A divisão é :"+entregadepipocas+"R$")
-console.log("-----------------------")
-let wesllainy= 2000;
-let mesestrab= 4;
+console.log("-----------------------")*/
+
+let salário= number(prompot("2500"));
+let mesestrab= number(prompot("5"));
 let totalanual= wesllainy/12*mesestrab
-console.log("wesllainy o seu +décimo+ é" +"R$")
+console.log("Seu décimo+ é: " +décimo)
+
+
+
+/*let x= number(prompt("Digite um número"))
+console.log(x)*/
