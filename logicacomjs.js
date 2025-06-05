@@ -37,7 +37,7 @@ alert ("Seu novo salario é: " +salario)
 }{
     salario("5/100*salario+salario")
     alert ("Seu novo salario é: " +salario)
-}*/
+}
 
 let idade = Number(prompot("digite sua idade:"))
  if (idade<=12 && idade<=17){ 
@@ -63,4 +63,48 @@ else if ( pontuacao>=5001 && pontuacao<=10000){
  else { 
     alert("Seu nivel é mestre e o seu bônus é de 2000PX")
  }
-   
+
+ let planobásico= 25;
+ let planopremium=40;
+ let planoultra=60;
+ let telastresaquatro= 5;
+ let telasmaisdequatro= 7.50;
+
+  let tipodeassinatura=(prompt("Digite o nome da assinatura que você deseja:"))
+  let quantitelas = prompt("Digite quantas telas você terá:")
+  if(tipodeassinatura == "básico"){
+        if(quantitelas>=4){
+alert("O seu valor é R$:"+(planobásico+telastresaquatro))
+        }else if(quantitelas>=3 && quantitelas<=4){
+     alert("O seu plano será R$"+(planobásico+telasmaisdequatro))
+        }else{
+            alert("O seu plano será R$"+(valordobásico))
+        }
+            
+        }
+
+    
+  else if(tipodeassinatura == "premium"){
+        if(quantitelas>=4){
+alert("O seu valor é R$:"+(planopremium+telastresaquatro))
+        }else if(quantitelas>=3 && quantitelas<=4){
+     alert("O seu plano será R$"+(planopremium+telasmaisdequatro))
+        }else{
+            alert("O seu plano será R$"+(valordopremium))
+        }
+    }
+
+         
+  if(tipodeassinatura == "ultra"){
+  if(quantitelas>=4){
+alert("O seu valor é R$:"+(planoultra+telastresaquatro))
+        }else if(quantitelas>=3 && quantitelas<=4){
+     alert("O seu plano será R$"+(planoultratelasmaisdequatro))
+        }else{
+            alert("O seu plano será R$"+(valordoultra))
+        }
+        }*/                 
+        
+        
+
+        
