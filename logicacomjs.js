@@ -103,7 +103,22 @@ alert("O seu valor é R$:"+(planoultra+telastresaquatro))
         }else{
             alert("O seu plano será R$"+(valordoultra))
         }
-        }*/                 
+        }   
+       
+        let daysOfWeek = ["Caio","Samuel"];
+        console.log(daysOfWeek[1])
+        console.log(daysOfWeek.length)
+        let listdiver = ["Caio",1,2.5,"Escola",false]
+        console.log(listdiver[3])
+        let nomedoaluno =prompt("Digite o nome do novo aluno:")
+        daysOfWeek.push(nomedoaluno)
+        daysOfWeek.unshift("Miguel")
+        daysOfWeek.pop()
+        daysOfWeek.shift()
+        daysOfWeek.sort()
+        alert("Atualmente os alunos da escola são"+daysOfWeek)
+        alert (daysOfWeek.indexOf("Arthur"))*/
+       
         
         
 
