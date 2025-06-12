@@ -117,9 +117,36 @@ alert("O seu valor é R$:"+(planoultra+telastresaquatro))
         daysOfWeek.shift()
         daysOfWeek.sort()
         alert("Atualmente os alunos da escola são"+daysOfWeek)
-        alert (daysOfWeek.indexOf("Arthur"))*/
-       
-        
-        
+        alert (daysOfWeek.indexOf("Arthur"))
+         
+        // Sem parâmetro
+        function saudar(){
+            alert("Desejo uma boa navegação no nosso site!")
+        }
+        saudar()
+        //funçao com return e parâmetro       
+      function dobrarNumero(numero){
+        return numero * 2
+      }
+     let resultado = dobrarNumero(888)
+      alert("O cálculo do dobro do numero é" + resultado) 
 
+      //com parâmetro
+      function cumprimentar(nome){
+        alert("Olá,"+nome+" Como está seu dia?")
+      }
+      let nomedoaluno = prompt(" Digite o seu nome jovem:")
+      cumprimentar(nomedoaluno)
+      //Recursiva  
+      function contagemregressiva(numero){
+      console.log(numero)
+    if(numero==0){ 
+        console.log("chegou");
+        
+    return;   
+  }
+ contagemRegressiva(numero-1)  
+  }
+ contagemRegressiva(10)*/
+ 
         
